@@ -1,0 +1,70 @@
+/* Estilos globais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #c5e0ec;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+header {
+    font-family: Verdana, sans-serif;
+    background-color: #67e9ee;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: rgb(19, 92, 230);
+    border: 5px solid #2994ec;
+}
+header h1 {
+    font-family: 'Georgia', serif;
+}
+
+/* Seção Sobre Mim e Galeria */
+#sobre-mim, #galeria {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+    border: 5px solid #2994ec;
+    border-radius: 5px;
+}
+
+/* Layout de duas colunas */
+#sobre-mim, #galeria {
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Estilos da Galeria */
+#galeria ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    justify-content: space-around;
+    padding: 10px;
+}
+#galeria ul li img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: #0713bb;
+    font-size: 0.9em;
+}
